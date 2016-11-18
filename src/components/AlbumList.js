@@ -17,7 +17,6 @@ export default class AlbumListComponent extends Component {
             <View key={album.title} >
                 <AlbumDetailComponent album={album} />
             </View>
-
         );
     }
     render() {
